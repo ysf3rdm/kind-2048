@@ -42,7 +42,7 @@ This repository provides all the resources and instructions needed to deploy the
 ```powershell
     kind load docker-image evilroot/docker-2048:latest
 ```
-### 3. Deploy 2048 Game to Kubernetes
+### 4. Deploy 2048 Game to Kubernetes
 
 1. Apply the Kubernetes manifests to deploy the 2048 game
 ```powershell
@@ -52,7 +52,7 @@ This repository provides all the resources and instructions needed to deploy the
 ```powershell
     kubectl get pods
 ```
-### 4. Access the 2048 Game in Your Browser
+### 5. Access the 2048 Game in Your Browser
 
 1. Use the kubectl port-forward command to expose the service locally:
 ```powershell
