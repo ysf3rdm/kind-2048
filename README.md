@@ -30,7 +30,7 @@ This repository provides all the resources and instructions needed to deploy the
 2. Verify the cluster is running:
 
 ```powershell
-     kubectl cluster-info --context
+     kubectl cluster-info --context kind-kind
 ```
 
 ### 3. Pull 2048 Game From Docker
